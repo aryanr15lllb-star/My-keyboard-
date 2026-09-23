@@ -1,21 +1,11 @@
-MY KEYBOARD — COMPLETE ANDROID IME
+# Future Keyboard
 
-This package contains:
-- keyboard.html: the complete single-file keyboard UI
-- MyKeyboardService.kt: Android InputMethodService bridge
-- AndroidManifest.xml + IME metadata
-- MainActivity for enabling/selecting the keyboard
+Kotlin Android custom keyboard using InputMethodService.
 
-BUILD:
-1. Open the folder in Android Studio.
-2. Sync Gradle.
-3. Build > Build APK(s).
-4. Install the APK.
-5. Open the My Keyboard app.
-6. Tap Enable My Keyboard.
-7. Select My Keyboard as the default keyboard.
-8. Test in Instagram, WhatsApp, Chrome, etc.
+## Build
+Open this project in Android Studio, sync Gradle, then Build > Build APK(s).
 
-The HTML keyboard has a built-in live test area when opened in a browser, while inside the IME the Android bridge sends key text to the focused app.
+## Enable
+Install the APK, open Future Keyboard, tap Open Keyboard Settings, enable Future Keyboard, then select it as the current keyboard.
 
-Voice typing depends on the phone's installed speech/voice service and is intentionally not granted microphone permission by this keyboard.
+This starter version includes QWERTY, shift, backspace, enter, space, emoji, vibration and a futuristic dark UI.
